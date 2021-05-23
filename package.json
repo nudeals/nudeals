@@ -51,7 +51,11 @@
   "dependencies": {
     "@prerenderer/prerenderer": "^0.7.2",
     "@prerenderer/renderer-puppeteer": "^0.2.0",
-    "html-minifier": "^3.5.16"
+    "copy-webpack-plugin": "^8.1.1",
+    "html-minifier": "^3.5.16",
+    "vue-expandable-image": "^0.1.0",
+    "vue-meta": "^2.4.0",
+    "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
     "ava": "^3.9.0",
