@@ -7,16 +7,16 @@
         </header>
 
         <main>
-            <highlight :highlightData="highlightData" :showBrochure="false"></highlight>
+            <highlight :highlightData="highlightData" :showBrochure="false" :showButton="true"></highlight>
             <section class="clients section container">
                 <div class="container">
-                    <div class="clients-inner section-inner has-top-divider">
+                    <div class="clients-inner section-inner">
                         <features :featureData="featureData"></features>
                     </div>
                 </div>
             </section>
 
-            <deals :dealData="dealData"></deals>
+            <showcase :showcaseData="showcaseData" title="מבצעים"></showcase>
 
         </main>
 
@@ -87,7 +87,7 @@
                         image: require('../assets/egoz-melech/feature_4.jpg'),
                     }                                                            
                 ],
-                dealData: [
+                showcaseData: [
                     {
                         name:'חמוציות ללא סוכר',
                         note: '',

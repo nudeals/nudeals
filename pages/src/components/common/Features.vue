@@ -1,19 +1,10 @@
 <template>
     <div class="container-sm">
-        <!-- <ul class="list-reset mb-0" v-for="(feature, index) in featureData" :key="index">
-            <li>
-                <img class="logo-brands" :src="feature.image">
-            </li>
-        </ul> -->
-
         <VueSlickCarousel v-bind="settings">
             <div v-for="(feature, index) in featureData" :key="index">
                 <img class="logo-brands" :src="feature.image">
             </div>
         </VueSlickCarousel>
-
-      
-
     </div>                          
 </template>
 

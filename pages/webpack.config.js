@@ -70,7 +70,7 @@ if (process.env.NODE_ENV === 'production') {
     }),
     new PrerenderSPAPlugin({
       staticDir: path.join(__dirname, 'dist'),
-      routes: [ '/', '/egoz-melech' ],
+      routes: [ '/', '/egoz-melech', 'vilon-yashir' ],
 
       renderer: new Renderer({
         inject: {
