@@ -1780,7 +1780,7 @@ a {
 }
 
 .logo {
-	width: 10rem;
+	width: 15rem;
     height: auto;
     margin: 0 auto;
 }
@@ -1818,7 +1818,7 @@ a {
 .feature-title {
 	font-weight: 400;
     margin-top: .5rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-family: sans-serif;
 }
 

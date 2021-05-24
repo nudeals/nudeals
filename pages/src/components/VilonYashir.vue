@@ -8,16 +8,7 @@
 
         <main>
             <highlight :highlightData="highlightData" :showBrochure="false" :showButton="false"></highlight>
-            <!-- <section class="clients section container">
-                <div class="container">
-                    <div class="clients-inner section-inner has-top-divider">
-                        <features :featureData="featureData"></features>
-                    </div>
-                </div>
-            </section> -->
-
             <showcase-no-price :showcaseData="showcaseData" title="סוגי הוילונות"></showcase-no-price>
-
         </main>
 
         <page-footer></page-footer>
@@ -60,15 +51,15 @@
                 sellerPage: 'https://www.nu-deals.co.il/il/vilon-yashir',
                 head: {
                     pageName: 'Nu Deals',
-                    title: 'Nudeals - מבצעי השבוע של אגוז מלך',
-                    description: 'חנות פיצוחים ותבלינים טריים עם קלייה איכותית במקום. מחלקת מוצרי אפייה ומחלקת מוצרי סושי. כל מוצרי הגורמה במקום אחד.  אתם מוזמנים לבקר אותנו בכתובת נתן הנביא 6 בית שמש.',
+                    title: 'וילון ישיר - החנות אצלכם בבית - וילונות בד, ונציאנים',
+                    description: 'חברת וילון ישיר היא חברת הוילונות הראשונה בישראל שמספקת את שירותיה בבית הלקוח לכל אורך התהליך: משלב הבחירה, התכנון והתקנת הוילונות לשביעות רצון הלקוחות!',
                     thumbnail: require('../assets/vilon-yashir/vilon_yashir_logo_thumb.jpg'),
                     url: this.sellerPage
                 },
                 highlightData: {
                     logo: require('../assets/vilon-yashir/vilon_yashir_logo.jpg'),
                     title: 'וילונות בד, ונציאנים, קפלים ועוד',
-                    highlight: '.חברת וילון ישיר היא חברת הוילונות הראשונה בישראל שמגיעה אליכם הביתה ופותחת לכם את המוצרים והקטלוגים אצלכם בבית. חברת “וילון ישיר” חלוצה בשיטת מכירת הווילונות בצורה ישירה בבית הלקוח. החברה פועלת עפ”י מנגנון תמחור דיפרנציאלי, בהתאם לנתוני כל לקוח. יתרון זה בצרוף בסיס עלויות נמוכות בהיעדר חנות פיזית ותשתית טכנולוגית מתקדמת, הן הסיבות לפער במחיר וברמת השירות לטובת הצרכן בחברה.המשך',
+                    highlight: '.חברת וילון ישיר היא חברת הוילונות הראשונה בישראל שמגיעה אליכם הביתה ופותחת לכם את המוצרים והקטלוגים אצלכם בבית. חברת “וילון ישיר” חלוצה בשיטת מכירת הווילונות בצורה ישירה בבית הלקוח. החברה פועלת עפ”י מנגנון תמחור דיפרנציאלי, בהתאם לנתוני כל לקוח. יתרון זה בצרוף בסיס עלויות נמוכות בהיעדר חנות פיזית ותשתית טכנולוגית מתקדמת, הן הסיבות לפער במחיר וברמת השירות לטובת הצרכן בחברה',
                     brochure: '',
                     bottom: '',
                     buttonText: '! לקבלת מבצעים נוספים לחצו כאן',
@@ -76,75 +67,69 @@
                 },
                 showcaseData: [
                     {
-                        name:'וילונות גלילה',
+                        name:'וילון בד קפלים עם כותרת לחדר שינה',
                         note: '',
-                        image: require('../assets/vilon-yashir/1.jpg'),
+                        image: require('../assets/vilon-yashir/vilon_yashir_1.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילונות לפינת האוכל',
+                        name:'וילון בד קפלים לסלון עם זוית',
                         note: '',
-                        image: require('../assets/vilon-yashir/2.jpg'),
+                        image: require('../assets/vilon-yashir/vilon_yashir_2.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילונות לחדרי שינה',
+                        name:'וילון קפלים בד שקוף לחדר שינה',
                         note: '',
-                        image: require('../assets/vilon-yashir/3.jpg'),
+                        image: require('../assets/vilon-yashir/vilon_yashir_3.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילונות לסלון',
+                        name:'וילונות בד שקוף לבד לסלון עם מנועים חשמליים',
                         note: '',
-                        image: require('../assets/vilon-yashir/4.jpg'),
+                        image: require('../assets/vilon-yashir/vilon_yashir_4.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילונות קפלים',
+                        name:'וילון בד פינתי לחדר שינה',
                         note: '',
-                        image: require('../assets/vilon-yashir/5.jpg'),
+                        image: require('../assets/vilon-yashir/vilon_yashir_5.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון זברה',
+                        name:'וילון קפלים עם כותרת קשת פתוחה לפינת אוכל',
                         note: '',
-                        image: require('../assets/vilon-yashir/6.jpg'),
+                        image: require('../assets/vilon-yashir/vilon_yashir_6.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון ונציאני',
+                        name:'וילונות בד שקוף לחדר שינה',
                         note: '',
-                        image: require('../assets/vilon-yashir/7.jpg'),
+                        image: require('../assets/vilon-yashir/vilon_yashir_7.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילונות קפלים שטוחים',
+                        name:'וילונות בד קפלים שקופים עם כותרת קשת פתוחה לסלון',
                         note: '',
-                        image: require('../assets/vilon-yashir/8.jpg'),
+                        image: require('../assets/vilon-yashir/vilon_yashir_9.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילונות קפל בננה',
+                        name:'וילון בד לסלון באורך שלוש מטר',
                         note: '',
-                        image: require('../assets/vilon-yashir/9.jpg'),
+                        image: require('../assets/vilon-yashir/vilon_yashir_10.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון רומאי',
+                        name:'וילון קפלים  לפינת אוכל עם כותרת',
                         note: '',
-                        image: require('../assets/vilon-yashir/10.jpg'),
+                        image: require('../assets/vilon-yashir/vilon_yashir_11.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילונות רינגים',
+                        name:'וילון בד קפלים שקוף עם כותרות לפינת אוכל',
                         note: '',
-                        image: require('../assets/vilon-yashir/11.jpg'),
-                        url: this.sellerPage
-                    },
-                    {
-                        name:'וילונות כותרת קשתות',
-                        note: '',
-                        image: require('../assets/vilon-yashir/12.jpg'),
+                        image: require('../assets/vilon-yashir/vilon_yashir_12.jpg'),
                         url: this.sellerPage
                     }                                                                                         
                 ],
