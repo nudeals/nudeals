@@ -89,6 +89,43 @@
                 ],
                 showcaseData: [
                     {
+                        name:'סוכריות צבעוניות לקישות',
+                        note: '',
+                        price: '₪2.9',
+                        image: require('../assets/egoz-melech/egoz_candy.jpg'),
+                        url: this.sellerPage
+                    },
+                    {
+                        name:'פיסטוק קלוף',
+                        note: '',
+                        price: '₪12.9',
+                        image: require('../assets/egoz-melech/egoz_pistuk.jpg'),
+                        url: this.sellerPage
+                    },
+                    {
+                        name:'מבחר חטיפי קוקוס ללא גלוטן',
+                        note: '250 גר',
+                        price: '₪9.90',
+                        image: require('../assets/egoz-melech/egoz_cocus_mocha.jpg'),
+                        url: this.sellerPage
+                    },
+                    {
+                        name:'שמפניית גביולי',
+                        note: '',
+                        price: '1 ב - ₪11.9',
+                        image: require('../assets/egoz-melech/egoz_champaign.jpg'),
+                        url: this.sellerPage
+                    },
+                    {
+                        name:'יינות באז',
+                        note: '',
+                        price: '2 ב - ₪55',
+                        image: require('../assets/egoz-melech/egoz_buz.jpg'),
+                        url: this.sellerPage
+                    },
+
+
+                    {
                         name:'חמוציות ללא סוכר',
                         note: '',
                         price: '₪3.9',
@@ -157,7 +194,14 @@
                         price: '₪11.90',
                         image: require('../assets/egoz-melech/egoz_kemach_pie_crust.jpg'),
                         url: this.sellerPage
-                    }                                                                                                                     
+                    },
+                    {
+                        name:'רד הוט',
+                        note: '',
+                        price: '₪25.90',
+                        image: require('../assets/egoz-melech/egoz_franks_red_hot.jpg'),
+                        url: this.sellerPage
+                    }                                                                                                                
                 ],
                 toolbarData: [ 
                     { 
