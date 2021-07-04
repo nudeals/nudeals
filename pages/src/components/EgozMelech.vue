@@ -68,7 +68,7 @@
                     logo: require('../assets/egoz-melech/logo.jpg'),
                     title: 'מבצעי השבוע',
                     highlight: '.חנות פיצוחים ותבלינים טריים עם קלייה איכותית במקום. מחלקת מוצרי אפייה ומחלקת מוצרי סושי. כל מוצרי הגורמה במקום אחד. אתם מוזמנים לבקר אותנו בכתובת נתן הנביא 6 בית שמש',
-                    brochure: require('../assets/egoz-melech/egoz_349.jpg'),
+                    brochure: require('../assets/egoz-melech/egoz_356.jpg'),
                     bottom: '',
                     buttonText: '! לקבלת מבצעים נוספים לחצו כאן',
                     sellerPage: this.sellerPage
@@ -89,47 +89,59 @@
                 ],
                 showcaseData: [
                     {
-                        name:'סוכריות צבעוניות לקישות',
-                        note: '',
-                        price: '₪2.9',
-                        image: require('../assets/egoz-melech/egoz_candy.jpg'),
+                        name:'שקד מולבן טחון',
+                        note: 'מקילו ומעלה',
+                        price: 'ק"ג ₪49',
+                        image: require('../assets/egoz-melech/319.jpg'),
+                        url: this.sellerPage
+                    },                    
+                    {
+                        name:'שקד מולבן',
+                        note: 'פרוס - גפרור - חציים - שלם',
+                        price: 'ק"ג ₪60',
+                        image: require('../assets/egoz-melech/almond_bleached.jpg'),
+                        url: this.sellerPage
+                    },
+                    {
+                        name:'אגוז מלך 80 אחוז',
+                        note: 'מקילו ומעלה',
+                        price: 'ק"ג ₪39',
+                        image: require('../assets/egoz-melech/618.jpg'),
+                        url: this.sellerPage
+                    },
+                    {
+                        name:'תמר יהלום גמבו',
+                        note: 'מקילו ומעלה',
+                        price: 'ק"ג ₪45',
+                        image: require('../assets/egoz-melech/golden_dates.jpg'),
                         url: this.sellerPage
                     },
                     {
                         name:'פיסטוק קלוף',
-                        note: '',
-                        price: '₪12.9',
-                        image: require('../assets/egoz-melech/egoz_pistuk.jpg'),
+                        note: '100 גרם',
+                        price: '₪9.9',
+                        image: require('../assets/egoz-melech/egoz_cachew.jpg'),
+                        url: this.sellerPage
+                    },                    
+                    {
+                        name:'שקד טבעי טחון',
+                        note: '400 גרם',
+                        price: '₪18.9',
+                        image: require('../assets/egoz-melech/almond_ground_natural.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'מבחר חטיפי קוקוס ללא גלוטן',
-                        note: '250 גר',
-                        price: '₪9.90',
-                        image: require('../assets/egoz-melech/egoz_cocus_mocha.jpg'),
+                        name:'פקאן טבעי',
+                        note: 'מחצי קילו',
+                        price: '₪75 ק"ג',
+                        image: require('../assets/egoz-melech/592.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'שמפניית גביולי',
+                        name:'תמר זהב קילו',
                         note: '',
-                        price: '1 ב - ₪11.9',
-                        image: require('../assets/egoz-melech/egoz_champaign.jpg'),
-                        url: this.sellerPage
-                    },
-                    {
-                        name:'יינות באז',
-                        note: '',
-                        price: '2 ב - ₪55',
-                        image: require('../assets/egoz-melech/egoz_buz.jpg'),
-                        url: this.sellerPage
-                    },
-
-
-                    {
-                        name:'חמוציות ללא סוכר',
-                        note: '',
-                        price: '₪3.9',
-                        image: require('../assets/egoz-melech/egoz_cranberry.jpg'),
+                        price: '₪24.9',
+                        image: require('../assets/egoz-melech/paradise_medjoul_dates.jpg'),
                         url: this.sellerPage
                     },
                     {
@@ -140,68 +152,21 @@
                         url: this.sellerPage
                     },                                        
                     {
-                        name:'סירופ תירס',
+                        name:'סוכריות צבעוניות לקישוט',
                         note: '',
-                        price: '₪21.9',
-                        image: require('../assets/egoz-melech/egoz_corn_syrup.jpg'),
+                        price: '₪2.90',
+                        image: require('../assets/egoz-melech/egoz_candy.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'קרם קוקוס',
-                        note: '17-19 אחוז 400 גרם',
-                        price: '₪8.9',
-                        image: require('../assets/egoz-melech/egoz_coconut_cream.jpg'),
-                        url: this.sellerPage
-                    },
-                    {
-                        name:'ויטאריז',
-                        note: '',
-                        price: '₪11.9',
-                        image: require('../assets/egoz-melech/egoz_vitariz.jpg'),
-                        url: this.sellerPage
-                    },
-                    {
-                        name:'גולדבומס',
-                        note: '',
-                        price: '₪11.9',
-                        image: require('../assets/egoz-melech/egoz_almond_bliss_regular.jpg'),
-                        url: this.sellerPage
-                    },
-                    {
-                        name:'גולדבומס וניל',
-                        note: '',
-                        price: '₪11.9',
-                        image: require('../assets/egoz-melech/egoz_almond_bliss_vanila.jpg'),
-                        url: this.sellerPage
-                    },
-                    {
-                        name:'אבקת שמרי בירה',
-                        note: '',
-                        price: '₪24.90',
-                        image: require('../assets/egoz-melech/egoz_yeast_powder.jpg'),
-                        url: this.sellerPage
-                    },
-                    {
-                        name:'חומץ בלסמי',
-                        note: '',
-                        price: '₪19.90',
-                        image: require('../assets/egoz-melech/egoz_olitalia.jpg'),
-                        url: this.sellerPage
-                    },
-                    {
-                        name:'לרום פאי שוקולד',
-                        note: '',
-                        price: '₪11.90',
-                        image: require('../assets/egoz-melech/egoz_kemach_pie_crust.jpg'),
-                        url: this.sellerPage
-                    },
-                    {
-                        name:'רד הוט',
-                        note: '',
-                        price: '₪25.90',
-                        image: require('../assets/egoz-melech/egoz_franks_red_hot.jpg'),
+                        name:'גליליות למילוי',
+                        note: 'מארז - 14 יחידות',
+                        price: '₪9.90',
+                        image: require('../assets/egoz-melech/chocolate_rolls.jpg'),
                         url: this.sellerPage
                     }                                                                                                                
+
+                                                                                                              
                 ],
                 toolbarData: [ 
                     { 
