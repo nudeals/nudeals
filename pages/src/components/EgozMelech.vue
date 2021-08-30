@@ -81,91 +81,101 @@
                         image: require('../assets/egoz-melech/feature_2.jpg'),
                     },
                     {
-                        image: require('../assets/egoz-melech/feature_3.jpg'),
-                    },
-                    {
                         image: require('../assets/egoz-melech/feature_4.jpg'),
                     }                                                            
                 ],
                 showcaseData: [
                     {
-                        name:'שקד מולבן טחון',
-                        note: 'מקילו ומעלה',
-                        price: 'ק"ג ₪49',
-                        image: require('../assets/egoz-melech/319.jpg'),
-                        url: this.sellerPage
-                    },                    
-                    {
-                        name:'שקד מולבן',
-                        note: 'פרוס - גפרור - חציים - שלם',
-                        price: 'ק"ג ₪60',
-                        image: require('../assets/egoz-melech/almond_bleached.jpg'),
-                        url: this.sellerPage
-                    },
-                    {
-                        name:'אגוז מלך 80 אחוז',
-                        note: 'מקילו ומעלה',
-                        price: 'ק"ג ₪39',
-                        image: require('../assets/egoz-melech/618.jpg'),
-                        url: this.sellerPage
-                    },
-                    {
                         name:'תמר יהלום גמבו',
                         note: 'מקילו ומעלה',
-                        price: 'ק"ג ₪45',
+                        price: 'ק"ג ₪49',
                         image: require('../assets/egoz-melech/golden_dates.jpg'),
                         url: this.sellerPage
-                    },
+                    },   
                     {
-                        name:'פיסטוק קלוף',
+                        name:'תמר אדום',
+                        note: '1 קילו',
+                        price: 'ק"ג ₪19.9',
+                        image: require('../assets/egoz-melech/egoz_tamar_red.jpg'),
+                        url: this.sellerPage
+                    },             
+                    {
+                        name:'שזיף מגולען',
                         note: '100 גרם',
-                        price: '₪9.9',
-                        image: require('../assets/egoz-melech/egoz_cachew.jpg'),
+                        price: '₪2.9',
+                        image: require('../assets/egoz-melech/284.jpg'),
                         url: this.sellerPage
-                    },                    
+                    },                                                
                     {
-                        name:'שקד טבעי טחון',
-                        note: '400 גרם',
-                        price: '₪18.9',
-                        image: require('../assets/egoz-melech/almond_ground_natural.jpg'),
+                        name:'שקד מולבן טחון',
+                        note: 'מקילו ומעלה',
+                        price: 'ק"ג ₪59',
+                        image: require('../assets/egoz-melech/319.jpg'),
                         url: this.sellerPage
-                    },
+                    },       
                     {
-                        name:'פקאן טבעי',
-                        note: 'מחצי קילו',
-                        price: '₪75 ק"ג',
-                        image: require('../assets/egoz-melech/592.jpg'),
+                        name:'שומשום לבן',
+                        note: 'מקילו ומעלה',
+                        price: 'ק"ג ₪15',
+                        image: require('../assets/egoz-melech/178.jpg'),
                         url: this.sellerPage
-                    },
+                    },                     
                     {
-                        name:'תמר זהב קילו',
-                        note: '',
-                        price: '₪24.9',
-                        image: require('../assets/egoz-melech/paradise_medjoul_dates.jpg'),
+                        name:'שעועית לוביה',
+                        note: 'מקילו ומעלה',
+                        price: 'ק"ג ₪13',
+                        image: require('../assets/egoz-melech/627.jpg'),
                         url: this.sellerPage
-                    },
+                    },                     
                     {
                         name:'קצפת ריצ׳',
                         note: '3 + 1 מתנה',
                         price: '₪15',
                         image: require('../assets/egoz-melech/egoz_plats.jpg'),
                         url: this.sellerPage
-                    },                                        
-                    {
-                        name:'סוכריות צבעוניות לקישוט',
-                        note: '',
-                        price: '₪2.90',
-                        image: require('../assets/egoz-melech/egoz_candy.jpg'),
-                        url: this.sellerPage
-                    },
+                    },  
                     {
                         name:'גליליות למילוי',
                         note: 'מארז - 14 יחידות',
                         price: '₪9.90',
+                        image: require('../assets/egoz-melech/egoz_plats.jpg'),
+                        url: this.sellerPage
+                    },   
+                    {
+                        name:'אבקת נוגט',
+                        note: '100 גרם',
+                        price: '₪6.90',
+                        image: require('../assets/egoz-melech/egoz_plats.jpg'),
+                        url: this.sellerPage
+                    },
+                    {
+                        name:'אינסטנט פודינג וניל',
+                        note: '100 גרם',
+                        price: '₪3',
                         image: require('../assets/egoz-melech/chocolate_rolls.jpg'),
                         url: this.sellerPage
-                    }                                                                                                                
-
+                    },
+                    {
+                        name:'מגוון יינות עמוקה',
+                        note: '',
+                        price: 'מבצע 2 ב₪100',
+                        image: require('../assets/egoz-melech/120.jpg'),
+                        url: this.sellerPage
+                    },
+                    {
+                        name:'יינות טפרברג',
+                        note: '',
+                        price: 'מבצע 3 ב₪100',
+                        image: require('../assets/egoz-melech/121.jpg'),
+                        url: this.sellerPage
+                    },
+                    {
+                        name:'יין רקנטי',
+                        note: '',
+                        price: 'מבצע 2 ב₪100',
+                        image: require('../assets/egoz-melech/122.jpg'),
+                        url: this.sellerPage
+                    },
                                                                                                               
                 ],
                 toolbarData: [ 
@@ -197,7 +207,9 @@
 
 <style scoped>
     .site-header::before {
-        background: #0f8a9d;
+        background: #850437;
         background: linear-gradient(159deg, #e66721 0%, #35220e 100%);
+        transform: skewY(0);
+        height: 500px;        
     }
 </style>
