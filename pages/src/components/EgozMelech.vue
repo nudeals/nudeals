@@ -138,21 +138,21 @@
                         name:'גליליות למילוי',
                         note: 'מארז - 14 יחידות',
                         price: '₪9.90',
-                        image: require('../assets/egoz-melech/egoz_plats.jpg'),
+                        image: require('../assets/egoz-melech/chocolate_rolls.jpg'),
                         url: this.sellerPage
                     },   
                     {
                         name:'אבקת נוגט',
                         note: '100 גרם',
                         price: '₪6.90',
-                        image: require('../assets/egoz-melech/egoz_plats.jpg'),
+                        image: require('../assets/egoz-melech/100.jpg'),
                         url: this.sellerPage
                     },
                     {
                         name:'אינסטנט פודינג וניל',
                         note: '100 גרם',
                         price: '₪3',
-                        image: require('../assets/egoz-melech/chocolate_rolls.jpg'),
+                        image: require('../assets/egoz-melech/101.jpg'),
                         url: this.sellerPage
                     },
                     {
