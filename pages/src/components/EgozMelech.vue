@@ -7,7 +7,8 @@
         </header>
 
         <main>
-            <highlight :highlightData="highlightData" :showBrochure="false" :showButton="true"></highlight>
+            <highlight :highlightData="highlightData" :showBrochure="true" :showButton="true"></highlight>
+            
             <section class="clients section container">
                 <div class="container">
                     <div class="clients-inner section-inner">
@@ -68,10 +69,10 @@
                     logo: require('../assets/egoz-melech/logo.jpg'),
                     title: 'מבצעי השבוע',
                     highlight: '.חנות פיצוחים ותבלינים טריים עם קלייה איכותית במקום. מחלקת מוצרי אפייה ומחלקת מוצרי סושי. כל מוצרי הגורמה במקום אחד. אתם מוזמנים לבקר אותנו בכתובת נתן הנביא 6 בית שמש',
-                    brochure: require('../assets/egoz-melech/egoz_356.jpg'),
+                    brochure: require('../assets/egoz-melech/365.jpg'),
                     bottom: '',
                     buttonText: '! לקבלת מבצעים נוספים לחצו כאן',
-                    sellerPage: this.sellerPage
+                    sellerPage: 'https://www.nu-deals.co.il/il/egoz-melech'
                 },
                 featureData: [
                     {
@@ -115,14 +116,14 @@
                     },       
                     {
                         name:'שומשום לבן',
-                        note: 'מקילו ומעלה',
+                        note: '',
                         price: 'ק"ג ₪15',
                         image: require('../assets/egoz-melech/178.jpg'),
                         url: this.sellerPage
                     },                     
                     {
                         name:'שעועית לוביה',
-                        note: 'מקילו ומעלה',
+                        note: '',
                         price: 'ק"ג ₪13',
                         image: require('../assets/egoz-melech/627.jpg'),
                         url: this.sellerPage
@@ -163,7 +164,7 @@
                         url: this.sellerPage
                     },
                     {
-                        name:'יינות טפרברג',
+                        name:'יינות טפרברג אימפריישיין',
                         note: '',
                         price: 'מבצע 3 ב₪100',
                         image: require('../assets/egoz-melech/121.jpg'),
@@ -210,6 +211,6 @@
         background: #850437;
         background: linear-gradient(159deg, #e66721 0%, #35220e 100%);
         transform: skewY(0);
-        height: 500px;        
+        height: 580px;        
     }
 </style>
