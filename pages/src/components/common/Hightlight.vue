@@ -7,7 +7,7 @@
                 <p class="hero-paragraph is-revealing">{{highlightData.highlight}}</p>
                 <p v-if="showButton" class="hero-cta is-revealing"><a class="button button-secondary button-shadow" :href="highlightData.sellerPage">{{highlightData.buttonText}}</a></p>
                 <div v-if="showBrochure" class="hero-image">
-                    <a :href="highlightData.sellerPage"><image-magnifier class="hero-media-img" :src="highlightData.brochure"/></a>
+                    <a :href="highlightData.sellerPage"><img class="hero-media-img" :src="highlightData.brochure"/></a>
                 </div>
                 <p class="bottom-paragraph mt-16">{{highlightData.bottom}}</p>
             </div>
@@ -16,10 +16,9 @@
 </template>
 
 <script>
-    import {ImageMagnifier} from 'vue-image-magnifier'
     export default {
         name: "Hightlight",
-        components: { ImageMagnifier  },
+        components: { },
         props: ["highlightData", "showBrochure", "showButton"]
     }
 </script>
