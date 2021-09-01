@@ -11,6 +11,7 @@ import ShowcaseNoPrice from './components/common/ShowcaseNoPrice.vue'
 import Footer from './components/common/Footer.vue'
 import EgozMelech from './components/EgozMelech.vue'
 import VilonYashir from './components/VilonYashir.vue'
+import CarAccessories from './components/CarAccessories.vue'
 import VueMeta from 'vue-meta'
 
 require('./styles/style.css')
@@ -31,7 +32,8 @@ const Home = { template: '<div><h2>Home Page</h2></div>' }
 const routes = [
   { path: '/', component: Home },
   { path: '/egoz-melech', component: EgozMelech },
-  { path: '/vilon-yashir', component: VilonYashir }
+  { path: '/vilon-yashir', component: VilonYashir },
+  { path: '/car-accessories', component: CarAccessories }
 ]
 
 const router = new VueRouter({
