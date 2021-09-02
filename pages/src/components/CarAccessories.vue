@@ -48,16 +48,16 @@
         },          
         data() {
             return {
-                sellerPage: 'https://www.nu-deals.co.il/il/car-accessories',
+                sellerPage: 'https://www.nudeals.co.il',
                 head: {
                     pageName: 'Nu Deals',
-                    title: 'וילון ישיר - החנות אצלכם בבית - וילונות בד, ונציאנים',
-                    description: 'חברת וילון ישיר היא חברת הוילונות הראשונה בישראל שמספקת את שירותיה בבית הלקוח לכל אורך התהליך: משלב הבחירה, התכנון והתקנת הוילונות לשביעות רצון הלקוחות!',
+                    title: 'המרכז לציפוים וסאונד',
+                    description: 'חלונות כהים | אביזרי יוקרה לרכב | סאונד ומולטימדיה | ליטוש פנסים | ניקוי ריפודים | תאורה מתקדמת',
                     thumbnail: require('../assets/car-accessories/header.jpg'),
                     url: this.sellerPage
                 },
                 highlightData: {
-                    logo: require('../assets/car-accessories/header2.jpg'),
+                    logo: require('../assets/car-accessories/header.jpg'),
                     title: '050-9029905',
                     highlight: 'חלונות כהים | אביזרי יוקרה לרכב | סאונד ומולטימדיה | ליטוש פנסים | ניקוי ריפודים | תאורה מתקדמת',
                     brochure: '',
@@ -67,131 +67,143 @@
                 },
                 showcaseData: [
                     {
-                        name:'וילון בד קפלים עם כותרת לחדר שינה',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal1.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד קפלים לסלון עם זוית',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal2.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד פינתי לחדר שינה',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal3.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון קפלים עם כותרת קשת פתוחה לפינת אוכל',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal4.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילונות בד שקוף לחדר שינה',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal5.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילונות בד קפלים שקופים עם כותרת קשת פתוחה לסלון',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal6.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד לסלון באורך שלוש מטר',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal7.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון קפלים  לפינת אוכל עם כותרת',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal8.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד קפלים שקוף עם כותרות לפינת אוכל',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal9.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד קפלים שקוף עם כותרות לפינת אוכל',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal10.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד קפלים שקוף עם כותרות לפינת אוכל',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal11.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד קפלים שקוף עם כותרות לפינת אוכל',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal12.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד קפלים שקוף עם כותרות לפינת אוכל',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal13.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד קפלים שקוף עם כותרות לפינת אוכל',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal14.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד קפלים שקוף עם כותרות לפינת אוכל',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal15.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד קפלים שקוף עם כותרות לפינת אוכל',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal16.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד קפלים שקוף עם כותרות לפינת אוכל',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal17.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד קפלים שקוף עם כותרות לפינת אוכל',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal18.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד קפלים שקוף עם כותרות לפינת אוכל',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal19.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד קפלים שקוף עם כותרות לפינת אוכל',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal20.jpg'),
                         url: this.sellerPage
                     },
                     {
-                        name:'וילון בד קפלים שקוף עם כותרות לפינת אוכל',
+                        name:'',
                         note: '',
                         image: require('../assets/car-accessories/gal21.jpg'),
                         url: this.sellerPage
-                    }                                                                                               
+                    },
+                    {
+                        name:'',
+                        note: '',
+                        image: require('../assets/car-accessories/picture1.jpg'),
+                        url: this.sellerPage
+                    },
+                    {
+                        name:'',
+                        note: '',
+                        image: require('../assets/car-accessories/picture2.jpg'),
+                        url: this.sellerPage
+                    }                                                                                           
                 ],
                 toolbarData: [ 
                     {
@@ -203,12 +215,12 @@
                         image: require('../assets/toolbar/whatsapp.png'),
                         url: 'https://api.whatsapp.com/send?phone=972509029905',
                         text: 'שלח וואטסאפ'
-                    },
+                    },            
                     {
                         image: require('../assets/toolbar/waze.png'),
                         url: 'https://waze.com/ul?ll=31.755059,34.992094&orig_lat=31.70702orig_lon=34.99965navigate=yes',
                         text: 'נווט אלי'
-                    }                                          
+                    }                                                     
                 ],
             };
         },        
@@ -222,12 +234,11 @@
         transform: skewY(0);
         height: 550px;
     }
-
     ::v-deep .logo {
         width: 18rem !important;
     }
 
-@media (min-width: 641px) {    
+    @media (min-width: 641px) {    
         .site-header::before {
             height: 580px;
         }
