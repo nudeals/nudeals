@@ -47,11 +47,11 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    noInfo: false,
+    noInfo: false
   },
   devtool: '#eval-source-map',
   plugins: [
-    new VueLoaderPlugin(),
+    new VueLoaderPlugin()
   ]
 }
 if (process.env.NODE_ENV === 'production') {
@@ -94,6 +94,6 @@ if (process.env.NODE_ENV === 'production') {
       template: 'index.html',
       filename: 'index.html',
       favicon: 'favicon.ico'
-    }),
+    })
   ])
 }
