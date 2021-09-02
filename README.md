@@ -179,7 +179,7 @@ module.exports = {
       // (REQUIRED) Absolute path to static root
       path.join(__dirname, 'relative/path/to/static/root'),
       // (REQUIRED) List of routes to prerender
-      [ '/', '/about', '/contact' ],
+      [ '/', '/about' ],
       // (OPTIONAL) Compatible options from v2.
       {
         // NOTE: Unless you are relying on asynchronously rendered content,

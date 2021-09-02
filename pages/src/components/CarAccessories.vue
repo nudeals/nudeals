@@ -203,7 +203,12 @@
                         image: require('../assets/toolbar/whatsapp.png'),
                         url: 'https://api.whatsapp.com/send?phone=972509029905',
                         text: 'שלח וואטסאפ'
-                    }                                         
+                    },
+                    {
+                        image: require('../assets/toolbar/waze.png'),
+                        url: 'https://waze.com/ul?ll=31.755059,34.992094&orig_lat=31.70702orig_lon=34.99965navigate=yes',
+                        text: 'נווט אלי'
+                    }                                          
                 ],
             };
         },        
@@ -217,16 +222,12 @@
         transform: skewY(0);
         height: 550px;
     }
-       .logo {
-            width: 16rem !important;
-        }
-        .hero-inner {
-            margin-top: 0;
-        }         
-        .hero-paragraph {
-            margin-bottom:50px;
-        }
-    @media (min-width: 641px) {    
+
+    ::v-deep .logo {
+        width: 18rem !important;
+    }
+
+@media (min-width: 641px) {    
         .site-header::before {
             height: 580px;
         }
