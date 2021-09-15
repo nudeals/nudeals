@@ -69,7 +69,7 @@
                     logo: require('../assets/egoz-melech/logo.jpg'),
                     title: 'מבצעי השבוע',
                     highlight: '.חנות פיצוחים ותבלינים טריים עם קלייה איכותית במקום. מחלקת מוצרי אפייה ומחלקת מוצרי סושי. כל מוצרי הגורמה במקום אחד. אתם מוזמנים לבקר אותנו בכתובת נתן הנביא 6 בית שמש',
-                    brochure: require('../assets/egoz-melech/365.jpg'),
+                    brochure: require('../assets/egoz-melech/366.jpg'),
                     bottom: '',
                     buttonText: '! לקבלת מבצעים נוספים לחצו כאן',
                     sellerPage: 'https://www.nu-deals.co.il/il/egoz-melech'
@@ -87,75 +87,47 @@
                 ],
                 showcaseData: [
                     {
-                        name:'תמר יהלום גמבו',
-                        note: 'מקילו ומעלה',
-                        price: 'ק"ג ₪49',
-                        image: require('../assets/egoz-melech/golden_dates.jpg'),
-                        url: this.sellerPage
-                    },   
-                    {
-                        name:'תמר אדום',
-                        note: '1 קילו',
-                        price: 'ק"ג ₪19.9',
-                        image: require('../assets/egoz-melech/egoz_tamar_red.jpg'),
-                        url: this.sellerPage
-                    },             
-                    {
-                        name:'שזיף מגולען',
-                        note: '100 גרם',
-                        price: '₪2.9',
-                        image: require('../assets/egoz-melech/284.jpg'),
-                        url: this.sellerPage
-                    },                                                
-                    {
-                        name:'שקד מולבן טחון',
-                        note: 'מקילו ומעלה',
-                        price: 'ק"ג ₪59',
-                        image: require('../assets/egoz-melech/319.jpg'),
-                        url: this.sellerPage
-                    },       
-                    {
-                        name:'שומשום לבן',
-                        note: '',
-                        price: 'ק"ג ₪15',
-                        image: require('../assets/egoz-melech/178.jpg'),
-                        url: this.sellerPage
-                    },                     
-                    {
-                        name:'שעועית לוביה',
-                        note: '',
-                        price: 'ק"ג ₪13',
-                        image: require('../assets/egoz-melech/627.jpg'),
-                        url: this.sellerPage
-                    },                     
-                    {
                         name:'קצפת ריצ׳',
                         note: '3 + 1 מתנה',
                         price: '₪15',
                         image: require('../assets/egoz-melech/egoz_plats.jpg'),
                         url: this.sellerPage
-                    },  
+                    },      
                     {
-                        name:'גליליות למילוי',
+                        name:'אינסטנט פודינג וניל שוקולד',
+                        note: '100 גר',
+                        price: '₪3',
+                        image: require('../assets/egoz-melech/pudding.jpg'),
+                        url: this.sellerPage
+                    },                      
+                    {
+                        name:'סוכריות צבעוניות לקישוט',
+                        note: '',
+                        price: '₪2.90',
+                        image: require('../assets/egoz-melech/egoz_candy.jpg'),
+                        url: this.sellerPage
+                    },                          
+                    {
+                        name:'מארז גלילי ופל למילוי',
                         note: 'מארז - 14 יחידות',
-                        price: '₪9.90',
+                        price: '₪12.90',
                         image: require('../assets/egoz-melech/chocolate_rolls.jpg'),
                         url: this.sellerPage
-                    },   
+                    },                                  
                     {
-                        name:'אבקת נוגט',
-                        note: '100 גרם',
-                        price: '₪6.90',
-                        image: require('../assets/egoz-melech/100.jpg'),
+                        name:'אבקת אייס קפה',
+                        note: '100 גר',
+                        price: '₪3.90',
+                        image: require('../assets/egoz-melech/ice_coffee.jpg'),
                         url: this.sellerPage
-                    },
+                    },             
                     {
-                        name:'אינסטנט פודינג וניל',
-                        note: '100 גרם',
-                        price: '₪3',
-                        image: require('../assets/egoz-melech/101.jpg'),
+                        name:'יינות טפרברג אסנס',
+                        note: 'בקניית 2 בקבוקים קבלו מארז שישיות כוסות יין במתנה!',
+                        price: '',
+                        image: require('../assets/egoz-melech/165.jpg'),
                         url: this.sellerPage
-                    },
+                    },                    
                     {
                         name:'מגוון יינות עמוקה',
                         note: '',
