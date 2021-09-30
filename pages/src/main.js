@@ -12,6 +12,7 @@ import Footer from './components/common/Footer.vue'
 import VilonYashir from './components/VilonYashir.vue'
 import EgozMelech from './components/EgozMelech.vue'
 import CarAccessories from './components/CarAccessories.vue'
+import LoveyBaby from './components/LoveyBaby.vue'
 import VueMeta from 'vue-meta'
 
 require('./styles/style.css')
@@ -33,7 +34,8 @@ const routes = [
   { path: '/', component: Home },
   { path: '/egoz-melech', component: EgozMelech },
   { path: '/vilon-yashir', component: VilonYashir },
-  { path: '/car-accessories', component: CarAccessories }
+  { path: '/car-accessories', component: CarAccessories },
+  { path: '/lovey-baby', component: LoveyBaby }
 ]
 
 const router = new VueRouter({
